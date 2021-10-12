@@ -13,7 +13,7 @@
     const elem = document.getElementById('3d-graph');
     const graph = ForceGraph3D()
       (elem)
-        .jsonUrl('data_label/graph.json')
+        .jsonUrl('data/graph_label.json')
         .nodeLabel(function(n){
           if (n.type == "pod" && n.hasOwnProperty('status') && n.status != "Running") {
             return n.name + '<br/> Status: ' + n.status + '<br/> StatusMsg: ' + n.statusmessage
