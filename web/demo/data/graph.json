@@ -1,36 +1,63 @@
 {
 	"nodes": [
 		{
-			"id": "namespace-vproduction",
+			"id": "kube-system-kube-scheduler-diagnostix",
+			"namespace": "kube-system",
+			"name": "kube-scheduler-diagnostix",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "node-diagnostix",
 			"namespace": "",
-			"name": "vproduction",
+			"name": "diagnostix",
+			"type": "node"
+		},
+		{
+			"id": "vproduction-elasticsearch-b7t1t4-0",
+			"namespace": "vproduction",
+			"name": "elasticsearch-b7t1t4-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-grafana-w4vv8o-0",
+			"namespace": "vproduction",
+			"name": "grafana-w4vv8o-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "namespace-kubernetes-dashboard",
+			"namespace": "",
+			"name": "kubernetes-dashboard",
 			"type": "namespace"
 		},
 		{
-			"id": "vproduction-elasticsearch-4uvocd-0",
-			"namespace": "vproduction",
-			"name": "elasticsearch-4uvocd-0",
+			"id": "kube-system-etcd-diagnostix",
+			"namespace": "kube-system",
+			"name": "etcd-diagnostix",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "vproduction-elasticsearch-4wksgg-0",
-			"namespace": "vproduction",
-			"name": "elasticsearch-4wksgg-0",
+			"id": "kube-system-kube-apiserver-acidenitrix",
+			"namespace": "kube-system",
+			"name": "kube-apiserver-acidenitrix",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "vproduction-zabbixcore-61e5le-56746586b8-7776x",
-			"namespace": "vproduction",
-			"name": "zabbixcore-61e5le-56746586b8-7776x",
+			"id": "kube-system-kube-apiserver-alambix",
+			"namespace": "kube-system",
+			"name": "kube-apiserver-alambix",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "vproduction-zabbixweb-61e5le-88674c9d-t67r9",
-			"namespace": "vproduction",
-			"name": "zabbixweb-61e5le-88674c9d-t67r9",
+			"id": "kube-system-kube-scheduler-alambix",
+			"namespace": "kube-system",
+			"name": "kube-scheduler-alambix",
 			"type": "pod",
 			"status": "Running"
 		},
@@ -42,16 +69,92 @@
 			"status": "Running"
 		},
 		{
-			"id": "vproduction-grafana-35aicw-0",
+			"id": "vproduction-mariadb-ys9n5b-0",
 			"namespace": "vproduction",
-			"name": "grafana-35aicw-0",
+			"name": "mariadb-ys9n5b-0",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "vproduction-mariadb-b0cx3z-0",
+			"id": "vproduction-zabbixweb-pw2ddq-84d64944d8-mmbl8",
 			"namespace": "vproduction",
-			"name": "mariadb-b0cx3z-0",
+			"name": "zabbixweb-pw2ddq-84d64944d8-mmbl8",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-coredns-5b8b5796bb-pv54g",
+			"namespace": "kube-system",
+			"name": "coredns-5b8b5796bb-pv54g",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-csi-cephfsplugin-mbczd",
+			"namespace": "kube-system",
+			"name": "csi-cephfsplugin-mbczd",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-defaultbackend-global-5d9f9894c8-rjt6z",
+			"namespace": "vproduction",
+			"name": "defaultbackend-global-5d9f9894c8-rjt6z",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-elasticsearch-4wksgg-0",
+			"namespace": "vproduction",
+			"name": "elasticsearch-4wksgg-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-graylog-0z8oak-55dffc5947-dpp8p",
+			"namespace": "vproduction",
+			"name": "graylog-0z8oak-55dffc5947-dpp8p",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixweb-96qa9c-74f696568d-r5n82",
+			"namespace": "vproduction",
+			"name": "zabbixweb-96qa9c-74f696568d-r5n82",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-rsyslog-35aicw-0",
+			"namespace": "vproduction",
+			"name": "rsyslog-35aicw-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "namespace-kube-system",
+			"namespace": "",
+			"name": "kube-system",
+			"type": "namespace"
+		},
+		{
+			"id": "vproduction-elasticsearch-61e5le-0",
+			"namespace": "vproduction",
+			"name": "elasticsearch-61e5le-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-grafana-frsytv-0",
+			"namespace": "vproduction",
+			"name": "grafana-frsytv-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mariadb-4uvocd-0",
+			"namespace": "vproduction",
+			"name": "mariadb-4uvocd-0",
 			"type": "pod",
 			"status": "Running"
 		},
@@ -63,216 +166,64 @@
 			"status": "Running"
 		},
 		{
-			"id": "vproduction-zabbixcore-4uvocd-6ccdfcc495-h42bf",
+			"id": "vproduction-mongodb-4uvocd-0",
 			"namespace": "vproduction",
-			"name": "zabbixcore-4uvocd-6ccdfcc495-h42bf",
+			"name": "mongodb-4uvocd-0",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "vproduction-zabbixweb-ys9n5b-56bc5bc78f-ns49k",
-			"namespace": "vproduction",
-			"name": "zabbixweb-ys9n5b-56bc5bc78f-ns49k",
+			"id": "kube-system-calico-node-bj9bv",
+			"namespace": "kube-system",
+			"name": "calico-node-bj9bv",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "node-assurancetourix",
+			"id": "kube-system-csi-cephfsplugin-provisioner-86d98645d4-x5fj6",
+			"namespace": "kube-system",
+			"name": "csi-cephfsplugin-provisioner-86d98645d4-x5fj6",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-grafana-35aicw-0",
+			"namespace": "vproduction",
+			"name": "grafana-35aicw-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-rsyslog-frsytv-0",
+			"namespace": "vproduction",
+			"name": "rsyslog-frsytv-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixcore-oqp7y8-7978745956-h65f4",
+			"namespace": "vproduction",
+			"name": "zabbixcore-oqp7y8-7978745956-h65f4",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "node-keskonrix",
 			"namespace": "",
-			"name": "assurancetourix",
+			"name": "keskonrix",
 			"type": "node"
 		},
 		{
-			"id": "kube-system-etcd-acidenitrix",
-			"namespace": "kube-system",
-			"name": "etcd-acidenitrix",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-grafana-vdjq3u-0",
+			"id": "vproduction-elasticsearch-4uvocd-0",
 			"namespace": "vproduction",
-			"name": "grafana-vdjq3u-0",
+			"name": "elasticsearch-4uvocd-0",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "node-alambix",
-			"namespace": "",
-			"name": "alambix",
-			"type": "node"
-		},
-		{
-			"id": "kube-system-calico-node-h7ggq",
-			"namespace": "kube-system",
-			"name": "calico-node-h7ggq",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mongodb-vdjq3u-0",
+			"id": "vproduction-grafana-b7t1t4-0",
 			"namespace": "vproduction",
-			"name": "mongodb-vdjq3u-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixcore-frsytv-6cd47b4d5d-wx65v",
-			"namespace": "vproduction",
-			"name": "zabbixcore-frsytv-6cd47b4d5d-wx65v",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixcore-ys9n5b-7485ddd5cb-jww89",
-			"namespace": "vproduction",
-			"name": "zabbixcore-ys9n5b-7485ddd5cb-jww89",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixproxy-vizee-6d489587bf-jxfwz",
-			"namespace": "vproduction",
-			"name": "zabbixproxy-vizee-6d489587bf-jxfwz",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-kube-state-metrics-7f965c5dc8-s9jwd",
-			"namespace": "kube-system",
-			"name": "kube-state-metrics-7f965c5dc8-s9jwd",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-metrics-server-6d64db4c8c-ttcql",
-			"namespace": "kube-system",
-			"name": "metrics-server-6d64db4c8c-ttcql",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-grafana-4uvocd-0",
-			"namespace": "vproduction",
-			"name": "grafana-4uvocd-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-grafana-61e5le-0",
-			"namespace": "vproduction",
-			"name": "grafana-61e5le-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-graylog-4uvocd-7dfd97ffd7-hdsb2",
-			"namespace": "vproduction",
-			"name": "graylog-4uvocd-7dfd97ffd7-hdsb2",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mariadb-ys9n5b-0",
-			"namespace": "vproduction",
-			"name": "mariadb-ys9n5b-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "namespace-kube-node-lease",
-			"namespace": "",
-			"name": "kube-node-lease",
-			"type": "namespace"
-		},
-		{
-			"id": "kube-system-coredns-5b8b5796bb-f6fmd",
-			"namespace": "kube-system",
-			"name": "coredns-5b8b5796bb-f6fmd",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-csi-cephfsplugin-tnbjh",
-			"namespace": "kube-system",
-			"name": "csi-cephfsplugin-tnbjh",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-etcd-alambix",
-			"namespace": "kube-system",
-			"name": "etcd-alambix",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-elasticsearch-w4vv8o-0",
-			"namespace": "vproduction",
-			"name": "elasticsearch-w4vv8o-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-graylog-oqp7y8-68496b65fc-2vg7f",
-			"namespace": "vproduction",
-			"name": "graylog-oqp7y8-68496b65fc-2vg7f",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-graylog-vdjq3u-5c9964f4fc-gftpt",
-			"namespace": "vproduction",
-			"name": "graylog-vdjq3u-5c9964f4fc-gftpt",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-perfelasticsearch-0z8oak-0",
-			"namespace": "vproduction",
-			"name": "perfelasticsearch-0z8oak-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-calico-kube-controllers-75d56dfc47-d489f",
-			"namespace": "kube-system",
-			"name": "calico-kube-controllers-75d56dfc47-d489f",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-elasticsearch-frsytv-0",
-			"namespace": "vproduction",
-			"name": "elasticsearch-frsytv-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-graylog-61e5le-75ddfc54d5-49rhf",
-			"namespace": "vproduction",
-			"name": "graylog-61e5le-75ddfc54d5-49rhf",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mariadb-nagaor-0",
-			"namespace": "vproduction",
-			"name": "mariadb-nagaor-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mariadb-oqp7y8-0",
-			"namespace": "vproduction",
-			"name": "mariadb-oqp7y8-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mongodb-0z8oak-0",
-			"namespace": "vproduction",
-			"name": "mongodb-0z8oak-0",
+			"name": "grafana-b7t1t4-0",
 			"type": "pod",
 			"status": "Running"
 		},
@@ -284,63 +235,30 @@
 			"status": "Running"
 		},
 		{
-			"id": "namespace-default",
-			"namespace": "",
-			"name": "default",
-			"type": "namespace"
+			"id": "vproduction-mongodb-oqp7y8-0",
+			"namespace": "vproduction",
+			"name": "mongodb-oqp7y8-0",
+			"type": "pod",
+			"status": "Running"
 		},
 		{
-			"id": "kube-system-kube-controller-manager-alambix",
+			"id": "vproduction-zabbixweb-nagaor-f8776f5db-b6hzh",
+			"namespace": "vproduction",
+			"name": "zabbixweb-nagaor-f8776f5db-b6hzh",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-kube-controller-manager-diagnostix",
 			"namespace": "kube-system",
-			"name": "kube-controller-manager-alambix",
+			"name": "kube-controller-manager-diagnostix",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "vproduction-elasticsearch-pw2ddq-0",
+			"id": "vproduction-elasticsearch-w4vv8o-0",
 			"namespace": "vproduction",
-			"name": "elasticsearch-pw2ddq-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mongodb-4uvocd-0",
-			"namespace": "vproduction",
-			"name": "mongodb-4uvocd-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mongodb-frsytv-0",
-			"namespace": "vproduction",
-			"name": "mongodb-frsytv-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "node-orthopedix",
-			"namespace": "",
-			"name": "orthopedix",
-			"type": "node"
-		},
-		{
-			"id": "vproduction-grafana-nagaor-0",
-			"namespace": "vproduction",
-			"name": "grafana-nagaor-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mongodb-4wksgg-0",
-			"namespace": "vproduction",
-			"name": "mongodb-4wksgg-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixweb-frsytv-58969c4b98-8xtzh",
-			"namespace": "vproduction",
-			"name": "zabbixweb-frsytv-58969c4b98-8xtzh",
+			"name": "elasticsearch-w4vv8o-0",
 			"type": "pod",
 			"status": "Running"
 		},
@@ -352,29 +270,44 @@
 			"status": "Pending"
 		},
 		{
-			"id": "namespace-kube-public",
-			"namespace": "",
-			"name": "kube-public",
-			"type": "namespace"
-		},
-		{
-			"id": "kube-system-coredns-5b8b5796bb-4vwsn",
-			"namespace": "kube-system",
-			"name": "coredns-5b8b5796bb-4vwsn",
+			"id": "vproduction-mongodb-b0cx3z-0",
+			"namespace": "vproduction",
+			"name": "mongodb-b0cx3z-0",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "kube-system-kube-proxy-76ssx",
-			"namespace": "kube-system",
-			"name": "kube-proxy-76ssx",
+			"id": "vproduction-zabbixcore-4wksgg-76bcfd59f7-6qtdv",
+			"namespace": "vproduction",
+			"name": "zabbixcore-4wksgg-76bcfd59f7-6qtdv",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "kube-system-kube-scheduler-diagnostix",
+			"id": "kube-system-calico-node-x7cpb",
 			"namespace": "kube-system",
-			"name": "kube-scheduler-diagnostix",
+			"name": "calico-node-x7cpb",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-csi-cephfsplugin-tnbjh",
+			"namespace": "kube-system",
+			"name": "csi-cephfsplugin-tnbjh",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-kube-scheduler-acidenitrix",
+			"namespace": "kube-system",
+			"name": "kube-scheduler-acidenitrix",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-grafana-61e5le-0",
+			"namespace": "vproduction",
+			"name": "grafana-61e5le-0",
 			"type": "pod",
 			"status": "Running"
 		},
@@ -393,37 +326,36 @@
 			"status": "Running"
 		},
 		{
-			"id": "vproduction-zabbixweb-b0cx3z-55b566f6c6-xnhk9",
+			"id": "node-assurancetourix",
+			"namespace": "",
+			"name": "assurancetourix",
+			"type": "node"
+		},
+		{
+			"id": "vproduction-elasticsearch-96qa9c-0",
 			"namespace": "vproduction",
-			"name": "zabbixweb-b0cx3z-55b566f6c6-xnhk9",
+			"name": "elasticsearch-96qa9c-0",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "kube-system-kube-apiserver-acidenitrix",
-			"namespace": "kube-system",
-			"name": "kube-apiserver-acidenitrix",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kubernetes-dashboard-dashboard-metrics-scraper-6b4884c9d5-hlk7s",
-			"namespace": "kubernetes-dashboard",
-			"name": "dashboard-metrics-scraper-6b4884c9d5-hlk7s",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-graylog-b7t1t4-85dd666589-hdxgt",
+			"id": "vproduction-grafana-vdjq3u-0",
 			"namespace": "vproduction",
-			"name": "graylog-b7t1t4-85dd666589-hdxgt",
+			"name": "grafana-vdjq3u-0",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "vproduction-zabbixcore-b0cx3z-866bf7f576-7qrf4",
+			"id": "vproduction-mongodb-96qa9c-0",
 			"namespace": "vproduction",
-			"name": "zabbixcore-b0cx3z-866bf7f576-7qrf4",
+			"name": "mongodb-96qa9c-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mongodb-vdjq3u-0",
+			"namespace": "vproduction",
+			"name": "mongodb-vdjq3u-0",
 			"type": "pod",
 			"status": "Running"
 		},
@@ -434,15 +366,336 @@
 			"type": "node"
 		},
 		{
-			"id": "namespace-kube-system",
+			"id": "kube-system-calico-node-89t7p",
+			"namespace": "kube-system",
+			"name": "calico-node-89t7p",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-elasticsearch-ys9n5b-0",
+			"namespace": "vproduction",
+			"name": "elasticsearch-ys9n5b-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-graylog-ys9n5b-55577fb8c4-z7p7f",
+			"namespace": "vproduction",
+			"name": "graylog-ys9n5b-55577fb8c4-z7p7f",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-haproxyic-global-847d94685c-6mksm",
+			"namespace": "vproduction",
+			"name": "haproxyic-global-847d94685c-6mksm",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixcore-ys9n5b-7485ddd5cb-jww89",
+			"namespace": "vproduction",
+			"name": "zabbixcore-ys9n5b-7485ddd5cb-jww89",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixweb-0z8oak-7b47dbb477-7rt7p",
+			"namespace": "vproduction",
+			"name": "zabbixweb-0z8oak-7b47dbb477-7rt7p",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixproxy-frsytv-6dfdb46ddf-hgkbn",
+			"namespace": "vproduction",
+			"name": "zabbixproxy-frsytv-6dfdb46ddf-hgkbn",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixproxy-vdjq3u-646f755f4b-v4rkn",
+			"namespace": "vproduction",
+			"name": "zabbixproxy-vdjq3u-646f755f4b-v4rkn",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-kube-proxy-77slt",
+			"namespace": "kube-system",
+			"name": "kube-proxy-77slt",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-elasticsearch-35aicw-0",
+			"namespace": "vproduction",
+			"name": "elasticsearch-35aicw-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-grafana-0z8oak-0",
+			"namespace": "vproduction",
+			"name": "grafana-0z8oak-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-grafana-b0cx3z-0",
+			"namespace": "vproduction",
+			"name": "grafana-b0cx3z-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-graylog-4wksgg-c66cbd9c5-ngwlv",
+			"namespace": "vproduction",
+			"name": "graylog-4wksgg-c66cbd9c5-ngwlv",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixcore-4uvocd-6ccdfcc495-h42bf",
+			"namespace": "vproduction",
+			"name": "zabbixcore-4uvocd-6ccdfcc495-h42bf",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-grafana-4wksgg-0",
+			"namespace": "vproduction",
+			"name": "grafana-4wksgg-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-graylog-nagaor-546f6f8865-rkjhx",
+			"namespace": "vproduction",
+			"name": "graylog-nagaor-546f6f8865-rkjhx",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mariadb-b0cx3z-0",
+			"namespace": "vproduction",
+			"name": "mariadb-b0cx3z-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixweb-4wksgg-74cc949959-5xjkw",
+			"namespace": "vproduction",
+			"name": "zabbixweb-4wksgg-74cc949959-5xjkw",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-graylog-frsytv-b868bb4f9-xqmq7",
+			"namespace": "vproduction",
+			"name": "graylog-frsytv-b868bb4f9-xqmq7",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mariadb-0z8oak-0",
+			"namespace": "vproduction",
+			"name": "mariadb-0z8oak-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-calico-node-h7ggq",
+			"namespace": "kube-system",
+			"name": "calico-node-h7ggq",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-kube-proxy-hxwj8",
+			"namespace": "kube-system",
+			"name": "kube-proxy-hxwj8",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-elasticsearch-oqp7y8-0",
+			"namespace": "vproduction",
+			"name": "elasticsearch-oqp7y8-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-elasticsearch-pw2ddq-0",
+			"namespace": "vproduction",
+			"name": "elasticsearch-pw2ddq-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-grafana-96qa9c-0",
+			"namespace": "vproduction",
+			"name": "grafana-96qa9c-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-grafana-oqp7y8-0",
+			"namespace": "vproduction",
+			"name": "grafana-oqp7y8-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixweb-61e5le-88674c9d-t67r9",
+			"namespace": "vproduction",
+			"name": "zabbixweb-61e5le-88674c9d-t67r9",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixweb-b0cx3z-55b566f6c6-xnhk9",
+			"namespace": "vproduction",
+			"name": "zabbixweb-b0cx3z-55b566f6c6-xnhk9",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixweb-b7t1t4-856d97d8b-dwscf",
+			"namespace": "vproduction",
+			"name": "zabbixweb-b7t1t4-856d97d8b-dwscf",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixweb-vdjq3u-db79db5b4-q2xsv",
+			"namespace": "vproduction",
+			"name": "zabbixweb-vdjq3u-db79db5b4-q2xsv",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "namespace-vtesting",
 			"namespace": "",
-			"name": "kube-system",
+			"name": "vtesting",
 			"type": "namespace"
+		},
+		{
+			"id": "vproduction-grafana-nagaor-0",
+			"namespace": "vproduction",
+			"name": "grafana-nagaor-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mariadb-nagaor-0",
+			"namespace": "vproduction",
+			"name": "mariadb-nagaor-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixcore-vdjq3u-85477bdbc9-bjbdq",
+			"namespace": "vproduction",
+			"name": "zabbixcore-vdjq3u-85477bdbc9-bjbdq",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixproxy-vizee-6d489587bf-jxfwz",
+			"namespace": "vproduction",
+			"name": "zabbixproxy-vizee-6d489587bf-jxfwz",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-kube-proxy-qw9hs",
+			"namespace": "kube-system",
+			"name": "kube-proxy-qw9hs",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-elasticsearch-vdjq3u-0",
+			"namespace": "vproduction",
+			"name": "elasticsearch-vdjq3u-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mariadb-61e5le-0",
+			"namespace": "vproduction",
+			"name": "mariadb-61e5le-0",
+			"type": "pod",
+			"status": "Running"
 		},
 		{
 			"id": "vproduction-mariadb-vdjq3u-0",
 			"namespace": "vproduction",
 			"name": "mariadb-vdjq3u-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixweb-4uvocd-584b669657-jxh5j",
+			"namespace": "vproduction",
+			"name": "zabbixweb-4uvocd-584b669657-jxh5j",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixweb-ys9n5b-56bc5bc78f-ns49k",
+			"namespace": "vproduction",
+			"name": "zabbixweb-ys9n5b-56bc5bc78f-ns49k",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixcore-0z8oak-7f56b48fbc-wp8sh",
+			"namespace": "vproduction",
+			"name": "zabbixcore-0z8oak-7f56b48fbc-wp8sh",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixcore-35aicw-7c8948d49b-959xj",
+			"namespace": "vproduction",
+			"name": "zabbixcore-35aicw-7c8948d49b-959xj",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "namespace-default",
+			"namespace": "",
+			"name": "default",
+			"type": "namespace"
+		},
+		{
+			"id": "kube-system-kube-controller-manager-alambix",
+			"namespace": "kube-system",
+			"name": "kube-controller-manager-alambix",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-elasticsearch-0z8oak-0",
+			"namespace": "vproduction",
+			"name": "elasticsearch-0z8oak-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mariadb-b7t1t4-0",
+			"namespace": "vproduction",
+			"name": "mariadb-b7t1t4-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mariadb-oqp7y8-0",
+			"namespace": "vproduction",
+			"name": "mariadb-oqp7y8-0",
 			"type": "pod",
 			"status": "Running"
 		},
@@ -454,6 +707,145 @@
 			"status": "Running"
 		},
 		{
+			"id": "node-alambix",
+			"namespace": "",
+			"name": "alambix",
+			"type": "node"
+		},
+		{
+			"id": "kube-system-coredns-5b8b5796bb-f6fmd",
+			"namespace": "kube-system",
+			"name": "coredns-5b8b5796bb-f6fmd",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-graylog-w4vv8o-766f4bc8d4-xpx49",
+			"namespace": "vproduction",
+			"name": "graylog-w4vv8o-766f4bc8d4-xpx49",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mariadb-4wksgg-0",
+			"namespace": "vproduction",
+			"name": "mariadb-4wksgg-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-perfmongodb-0z8oak-0",
+			"namespace": "vproduction",
+			"name": "perfmongodb-0z8oak-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixcore-61e5le-56746586b8-7776x",
+			"namespace": "vproduction",
+			"name": "zabbixcore-61e5le-56746586b8-7776x",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-calico-node-xvlm8",
+			"namespace": "kube-system",
+			"name": "calico-node-xvlm8",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixweb-frsytv-58969c4b98-8xtzh",
+			"namespace": "vproduction",
+			"name": "zabbixweb-frsytv-58969c4b98-8xtzh",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixweb-w4vv8o-8b48d6554-z6g6n",
+			"namespace": "vproduction",
+			"name": "zabbixweb-w4vv8o-8b48d6554-z6g6n",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-graylog-b7t1t4-85dd666589-hdxgt",
+			"namespace": "vproduction",
+			"name": "graylog-b7t1t4-85dd666589-hdxgt",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mongodb-61e5le-0",
+			"namespace": "vproduction",
+			"name": "mongodb-61e5le-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixproxy-35aicw-6c5cdfbf5-98hvt",
+			"namespace": "vproduction",
+			"name": "zabbixproxy-35aicw-6c5cdfbf5-98hvt",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kubernetes-dashboard-kubernetes-dashboard-7d8574ffd9-rmlxj",
+			"namespace": "kubernetes-dashboard",
+			"name": "kubernetes-dashboard-7d8574ffd9-rmlxj",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-elasticsearch-frsytv-0",
+			"namespace": "vproduction",
+			"name": "elasticsearch-frsytv-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mongodb-0z8oak-0",
+			"namespace": "vproduction",
+			"name": "mongodb-0z8oak-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixcore-b0cx3z-866bf7f576-7qrf4",
+			"namespace": "vproduction",
+			"name": "zabbixcore-b0cx3z-866bf7f576-7qrf4",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-coredns-5b8b5796bb-kqnc4",
+			"namespace": "kube-system",
+			"name": "coredns-5b8b5796bb-kqnc4",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-kube-proxy-76ssx",
+			"namespace": "kube-system",
+			"name": "kube-proxy-76ssx",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kubernetes-dashboard-dashboard-metrics-scraper-6b4884c9d5-hlk7s",
+			"namespace": "kubernetes-dashboard",
+			"name": "dashboard-metrics-scraper-6b4884c9d5-hlk7s",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-graylog-oqp7y8-68496b65fc-2vg7f",
+			"namespace": "vproduction",
+			"name": "graylog-oqp7y8-68496b65fc-2vg7f",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
 			"id": "vproduction-zabbixcore-b7t1t4-56768b65b8-fmrcc",
 			"namespace": "vproduction",
 			"name": "zabbixcore-b7t1t4-56768b65b8-fmrcc",
@@ -461,9 +853,237 @@
 			"status": "Running"
 		},
 		{
-			"id": "kube-system-calico-node-x7cpb",
+			"id": "vproduction-zabbixcore-nagaor-5d55c7bc6d-tr88h",
+			"namespace": "vproduction",
+			"name": "zabbixcore-nagaor-5d55c7bc6d-tr88h",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mongodb-w4vv8o-0",
+			"namespace": "vproduction",
+			"name": "mongodb-w4vv8o-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixcore-pw2ddq-59cdf76f6-gkdqf",
+			"namespace": "vproduction",
+			"name": "zabbixcore-pw2ddq-59cdf76f6-gkdqf",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-etcd-alambix",
 			"namespace": "kube-system",
-			"name": "calico-node-x7cpb",
+			"name": "etcd-alambix",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-graylog-4uvocd-7dfd97ffd7-hdsb2",
+			"namespace": "vproduction",
+			"name": "graylog-4uvocd-7dfd97ffd7-hdsb2",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-graylog-b0cx3z-d688f546f-xqnh8",
+			"namespace": "vproduction",
+			"name": "graylog-b0cx3z-d688f546f-xqnh8",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-graylog-pw2ddq-549f5d9849-jk2vw",
+			"namespace": "vproduction",
+			"name": "graylog-pw2ddq-549f5d9849-jk2vw",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mongodb-4wksgg-0",
+			"namespace": "vproduction",
+			"name": "mongodb-4wksgg-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mongodb-frsytv-0",
+			"namespace": "vproduction",
+			"name": "mongodb-frsytv-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mongodb-nagaor-0",
+			"namespace": "vproduction",
+			"name": "mongodb-nagaor-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "namespace-kube-public",
+			"namespace": "",
+			"name": "kube-public",
+			"type": "namespace"
+		},
+		{
+			"id": "kube-system-kube-state-metrics-7f965c5dc8-s9jwd",
+			"namespace": "kube-system",
+			"name": "kube-state-metrics-7f965c5dc8-s9jwd",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mariadb-frsytv-0",
+			"namespace": "vproduction",
+			"name": "mariadb-frsytv-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "namespace-kube-node-lease",
+			"namespace": "",
+			"name": "kube-node-lease",
+			"type": "namespace"
+		},
+		{
+			"id": "kube-system-calico-kube-controllers-75d56dfc47-d489f",
+			"namespace": "kube-system",
+			"name": "calico-kube-controllers-75d56dfc47-d489f",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-coredns-5b8b5796bb-4vwsn",
+			"namespace": "kube-system",
+			"name": "coredns-5b8b5796bb-4vwsn",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-rsyslog-vdjq3u-0",
+			"namespace": "vproduction",
+			"name": "rsyslog-vdjq3u-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixcore-w4vv8o-c668cb68b-khqnd",
+			"namespace": "vproduction",
+			"name": "zabbixcore-w4vv8o-c668cb68b-khqnd",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixweb-oqp7y8-589d7b7dd6-h6fvp",
+			"namespace": "vproduction",
+			"name": "zabbixweb-oqp7y8-589d7b7dd6-h6fvp",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-coredns-5b8b5796bb-qfsb8",
+			"namespace": "kube-system",
+			"name": "coredns-5b8b5796bb-qfsb8",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-csi-cephfsplugin-provisioner-86d98645d4-qhdq5",
+			"namespace": "kube-system",
+			"name": "csi-cephfsplugin-provisioner-86d98645d4-qhdq5",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-grafana-pw2ddq-0",
+			"namespace": "vproduction",
+			"name": "grafana-pw2ddq-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-graylog-vdjq3u-5c9964f4fc-gftpt",
+			"namespace": "vproduction",
+			"name": "graylog-vdjq3u-5c9964f4fc-gftpt",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-kube-controller-manager-acidenitrix",
+			"namespace": "kube-system",
+			"name": "kube-controller-manager-acidenitrix",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mariadb-pw2ddq-0",
+			"namespace": "vproduction",
+			"name": "mariadb-pw2ddq-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-perfelasticsearch-0z8oak-0",
+			"namespace": "vproduction",
+			"name": "perfelasticsearch-0z8oak-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-zabbixweb-35aicw-5c7765775-dj52v",
+			"namespace": "vproduction",
+			"name": "zabbixweb-35aicw-5c7765775-dj52v",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "namespace-vproduction",
+			"namespace": "",
+			"name": "vproduction",
+			"type": "namespace"
+		},
+		{
+			"id": "kube-system-csi-cephfsplugin-provisioner-86d98645d4-ftgcg",
+			"namespace": "kube-system",
+			"name": "csi-cephfsplugin-provisioner-86d98645d4-ftgcg",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-etcd-acidenitrix",
+			"namespace": "kube-system",
+			"name": "etcd-acidenitrix",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-grafana-4uvocd-0",
+			"namespace": "vproduction",
+			"name": "grafana-4uvocd-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-graylog-61e5le-75ddfc54d5-49rhf",
+			"namespace": "vproduction",
+			"name": "graylog-61e5le-75ddfc54d5-49rhf",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-perfgraylog-0z8oak-6bdb77fb9c-76g9k",
+			"namespace": "vproduction",
+			"name": "perfgraylog-0z8oak-6bdb77fb9c-76g9k",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-calico-node-cjs6l",
+			"namespace": "kube-system",
+			"name": "calico-node-cjs6l",
 			"type": "pod",
 			"status": "Running"
 		},
@@ -482,51 +1102,16 @@
 			"status": "Running"
 		},
 		{
-			"id": "vproduction-mongodb-61e5le-0",
+			"id": "vproduction-zabbixcore-96qa9c-794bd7ccc7-2xq9q",
 			"namespace": "vproduction",
-			"name": "mongodb-61e5le-0",
+			"name": "zabbixcore-96qa9c-794bd7ccc7-2xq9q",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "vproduction-nprobe1-6667db8f45-44dg4",
+			"id": "vproduction-elasticsearch-nagaor-0",
 			"namespace": "vproduction",
-			"name": "nprobe1-6667db8f45-44dg4",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixweb-4wksgg-74cc949959-5xjkw",
-			"namespace": "vproduction",
-			"name": "zabbixweb-4wksgg-74cc949959-5xjkw",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-csi-cephfsplugin-provisioner-86d98645d4-qhdq5",
-			"namespace": "kube-system",
-			"name": "csi-cephfsplugin-provisioner-86d98645d4-qhdq5",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-kube-proxy-77slt",
-			"namespace": "kube-system",
-			"name": "kube-proxy-77slt",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-grafana-frsytv-0",
-			"namespace": "vproduction",
-			"name": "grafana-frsytv-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-grafana-pw2ddq-0",
-			"namespace": "vproduction",
-			"name": "grafana-pw2ddq-0",
+			"name": "elasticsearch-nagaor-0",
 			"type": "pod",
 			"status": "Running"
 		},
@@ -538,468 +1123,9 @@
 			"status": "Running"
 		},
 		{
-			"id": "vproduction-zabbixweb-0z8oak-7b47dbb477-7rt7p",
-			"namespace": "vproduction",
-			"name": "zabbixweb-0z8oak-7b47dbb477-7rt7p",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixproxy-35aicw-6c5cdfbf5-98hvt",
-			"namespace": "vproduction",
-			"name": "zabbixproxy-35aicw-6c5cdfbf5-98hvt",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-calico-node-bj9bv",
-			"namespace": "kube-system",
-			"name": "calico-node-bj9bv",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-kube-controller-manager-diagnostix",
-			"namespace": "kube-system",
-			"name": "kube-controller-manager-diagnostix",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kubernetes-dashboard-kubernetes-dashboard-7d8574ffd9-rmlxj",
-			"namespace": "kubernetes-dashboard",
-			"name": "kubernetes-dashboard-7d8574ffd9-rmlxj",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-grafana-b7t1t4-0",
-			"namespace": "vproduction",
-			"name": "grafana-b7t1t4-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mariadb-61e5le-0",
-			"namespace": "vproduction",
-			"name": "mariadb-61e5le-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mongodb-b0cx3z-0",
-			"namespace": "vproduction",
-			"name": "mongodb-b0cx3z-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-rsyslog-35aicw-0",
-			"namespace": "vproduction",
-			"name": "rsyslog-35aicw-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixweb-4uvocd-584b669657-jxh5j",
-			"namespace": "vproduction",
-			"name": "zabbixweb-4uvocd-584b669657-jxh5j",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-csi-cephfsplugin-provisioner-86d98645d4-ftgcg",
-			"namespace": "kube-system",
-			"name": "csi-cephfsplugin-provisioner-86d98645d4-ftgcg",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-elasticsearch-0z8oak-0",
-			"namespace": "vproduction",
-			"name": "elasticsearch-0z8oak-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixcore-w4vv8o-c668cb68b-khqnd",
-			"namespace": "vproduction",
-			"name": "zabbixcore-w4vv8o-c668cb68b-khqnd",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-elasticsearch-35aicw-0",
-			"namespace": "vproduction",
-			"name": "elasticsearch-35aicw-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-graylog-frsytv-b868bb4f9-xqmq7",
-			"namespace": "vproduction",
-			"name": "graylog-frsytv-b868bb4f9-xqmq7",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mongodb-nagaor-0",
-			"namespace": "vproduction",
-			"name": "mongodb-nagaor-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixweb-pw2ddq-84d64944d8-mmbl8",
-			"namespace": "vproduction",
-			"name": "zabbixweb-pw2ddq-84d64944d8-mmbl8",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixweb-nagaor-f8776f5db-b6hzh",
-			"namespace": "vproduction",
-			"name": "zabbixweb-nagaor-f8776f5db-b6hzh",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "namespace-kubernetes-dashboard",
-			"namespace": "",
-			"name": "kubernetes-dashboard",
-			"type": "namespace"
-		},
-		{
-			"id": "namespace-vtesting",
-			"namespace": "",
-			"name": "vtesting",
-			"type": "namespace"
-		},
-		{
-			"id": "vproduction-grafana-oqp7y8-0",
-			"namespace": "vproduction",
-			"name": "grafana-oqp7y8-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
 			"id": "vproduction-graylog-96qa9c-99ffd68f5-tgwpt",
 			"namespace": "vproduction",
 			"name": "graylog-96qa9c-99ffd68f5-tgwpt",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-graylog-b0cx3z-d688f546f-xqnh8",
-			"namespace": "vproduction",
-			"name": "graylog-b0cx3z-d688f546f-xqnh8",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mongodb-96qa9c-0",
-			"namespace": "vproduction",
-			"name": "mongodb-96qa9c-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mongodb-pw2ddq-0",
-			"namespace": "vproduction",
-			"name": "mongodb-pw2ddq-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-grafana-ys9n5b-0",
-			"namespace": "vproduction",
-			"name": "grafana-ys9n5b-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mariadb-4wksgg-0",
-			"namespace": "vproduction",
-			"name": "mariadb-4wksgg-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixweb-96qa9c-74f696568d-r5n82",
-			"namespace": "vproduction",
-			"name": "zabbixweb-96qa9c-74f696568d-r5n82",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixweb-oqp7y8-589d7b7dd6-h6fvp",
-			"namespace": "vproduction",
-			"name": "zabbixweb-oqp7y8-589d7b7dd6-h6fvp",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-defaultbackend-global-5d9f9894c8-rjt6z",
-			"namespace": "vproduction",
-			"name": "defaultbackend-global-5d9f9894c8-rjt6z",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-elasticsearch-61e5le-0",
-			"namespace": "vproduction",
-			"name": "elasticsearch-61e5le-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-elasticsearch-ys9n5b-0",
-			"namespace": "vproduction",
-			"name": "elasticsearch-ys9n5b-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixcore-4wksgg-76bcfd59f7-6qtdv",
-			"namespace": "vproduction",
-			"name": "zabbixcore-4wksgg-76bcfd59f7-6qtdv",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-kube-controller-manager-acidenitrix",
-			"namespace": "kube-system",
-			"name": "kube-controller-manager-acidenitrix",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mariadb-4uvocd-0",
-			"namespace": "vproduction",
-			"name": "mariadb-4uvocd-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-rsyslog-vdjq3u-0",
-			"namespace": "vproduction",
-			"name": "rsyslog-vdjq3u-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-kube-scheduler-acidenitrix",
-			"namespace": "kube-system",
-			"name": "kube-scheduler-acidenitrix",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-grafana-4wksgg-0",
-			"namespace": "vproduction",
-			"name": "grafana-4wksgg-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-haproxyic-global-847d94685c-6mksm",
-			"namespace": "vproduction",
-			"name": "haproxyic-global-847d94685c-6mksm",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mariadb-frsytv-0",
-			"namespace": "vproduction",
-			"name": "mariadb-frsytv-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mariadb-w4vv8o-0",
-			"namespace": "vproduction",
-			"name": "mariadb-w4vv8o-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixweb-35aicw-5c7765775-dj52v",
-			"namespace": "vproduction",
-			"name": "zabbixweb-35aicw-5c7765775-dj52v",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixweb-b7t1t4-856d97d8b-dwscf",
-			"namespace": "vproduction",
-			"name": "zabbixweb-b7t1t4-856d97d8b-dwscf",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-kube-proxy-qw9hs",
-			"namespace": "kube-system",
-			"name": "kube-proxy-qw9hs",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-elasticsearch-96qa9c-0",
-			"namespace": "vproduction",
-			"name": "elasticsearch-96qa9c-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-elasticsearch-vdjq3u-0",
-			"namespace": "vproduction",
-			"name": "elasticsearch-vdjq3u-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-rsyslog-frsytv-0",
-			"namespace": "vproduction",
-			"name": "rsyslog-frsytv-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "node-diagnostix",
-			"namespace": "",
-			"name": "diagnostix",
-			"type": "node"
-		},
-		{
-			"id": "kube-system-csi-cephfsplugin-mbczd",
-			"namespace": "kube-system",
-			"name": "csi-cephfsplugin-mbczd",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-grafana-96qa9c-0",
-			"namespace": "vproduction",
-			"name": "grafana-96qa9c-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-graylog-0z8oak-55dffc5947-dpp8p",
-			"namespace": "vproduction",
-			"name": "graylog-0z8oak-55dffc5947-dpp8p",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mongodb-w4vv8o-0",
-			"namespace": "vproduction",
-			"name": "mongodb-w4vv8o-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixcore-35aicw-7c8948d49b-959xj",
-			"namespace": "vproduction",
-			"name": "zabbixcore-35aicw-7c8948d49b-959xj",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixcore-vdjq3u-85477bdbc9-bjbdq",
-			"namespace": "vproduction",
-			"name": "zabbixcore-vdjq3u-85477bdbc9-bjbdq",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixweb-w4vv8o-8b48d6554-z6g6n",
-			"namespace": "vproduction",
-			"name": "zabbixweb-w4vv8o-8b48d6554-z6g6n",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-grafana-w4vv8o-0",
-			"namespace": "vproduction",
-			"name": "grafana-w4vv8o-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixcore-oqp7y8-7978745956-h65f4",
-			"namespace": "vproduction",
-			"name": "zabbixcore-oqp7y8-7978745956-h65f4",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-calico-node-cjs6l",
-			"namespace": "kube-system",
-			"name": "calico-node-cjs6l",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-elasticsearch-oqp7y8-0",
-			"namespace": "vproduction",
-			"name": "elasticsearch-oqp7y8-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mariadb-pw2ddq-0",
-			"namespace": "vproduction",
-			"name": "mariadb-pw2ddq-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-zabbixweb-vdjq3u-db79db5b4-q2xsv",
-			"namespace": "vproduction",
-			"name": "zabbixweb-vdjq3u-db79db5b4-q2xsv",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-kube-apiserver-diagnostix",
-			"namespace": "kube-system",
-			"name": "kube-apiserver-diagnostix",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "kube-system-kube-proxy-z59xt",
-			"namespace": "kube-system",
-			"name": "kube-proxy-z59xt",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-grafana-b0cx3z-0",
-			"namespace": "vproduction",
-			"name": "grafana-b0cx3z-0",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-graylog-pw2ddq-549f5d9849-jk2vw",
-			"namespace": "vproduction",
-			"name": "graylog-pw2ddq-549f5d9849-jk2vw",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-graylog-w4vv8o-766f4bc8d4-xpx49",
-			"namespace": "vproduction",
-			"name": "graylog-w4vv8o-766f4bc8d4-xpx49",
-			"type": "pod",
-			"status": "Running"
-		},
-		{
-			"id": "vproduction-mongodb-ys9n5b-0",
-			"namespace": "vproduction",
-			"name": "mongodb-ys9n5b-0",
 			"type": "pod",
 			"status": "Running"
 		},
@@ -1011,31 +1137,1702 @@
 			"status": "Pending"
 		},
 		{
-			"id": "kube-system-coredns-5b8b5796bb-kqnc4",
+			"id": "kube-system-kube-proxy-z59xt",
 			"namespace": "kube-system",
-			"name": "coredns-5b8b5796bb-kqnc4",
+			"name": "kube-proxy-z59xt",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "kube-system-coredns-5b8b5796bb-pv54g",
+			"id": "kube-system-metrics-server-6d64db4c8c-ttcql",
 			"namespace": "kube-system",
-			"name": "coredns-5b8b5796bb-pv54g",
+			"name": "metrics-server-6d64db4c8c-ttcql",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "kube-system-coredns-5b8b5796bb-qfsb8",
-			"namespace": "kube-system",
-			"name": "coredns-5b8b5796bb-qfsb8",
+			"id": "vproduction-mariadb-w4vv8o-0",
+			"namespace": "vproduction",
+			"name": "mariadb-w4vv8o-0",
 			"type": "pod",
 			"status": "Running"
 		},
 		{
-			"id": "kube-system-csi-cephfsplugin-provisioner-86d98645d4-x5fj6",
+			"id": "vproduction-zabbixcore-frsytv-6cd47b4d5d-wx65v",
+			"namespace": "vproduction",
+			"name": "zabbixcore-frsytv-6cd47b4d5d-wx65v",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "node-orthopedix",
+			"namespace": "",
+			"name": "orthopedix",
+			"type": "node"
+		},
+		{
+			"id": "kube-system-kube-apiserver-diagnostix",
 			"namespace": "kube-system",
-			"name": "csi-cephfsplugin-provisioner-86d98645d4-x5fj6",
+			"name": "kube-apiserver-diagnostix",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "kube-system-kube-proxy-zvc4w",
+			"namespace": "kube-system",
+			"name": "kube-proxy-zvc4w",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-grafana-ys9n5b-0",
+			"namespace": "vproduction",
+			"name": "grafana-ys9n5b-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mongodb-pw2ddq-0",
+			"namespace": "vproduction",
+			"name": "mongodb-pw2ddq-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-mongodb-ys9n5b-0",
+			"namespace": "vproduction",
+			"name": "mongodb-ys9n5b-0",
+			"type": "pod",
+			"status": "Running"
+		},
+		{
+			"id": "vproduction-nprobe1-6667db8f45-44dg4",
+			"namespace": "vproduction",
+			"name": "nprobe1-6667db8f45-44dg4",
 			"type": "pod",
 			"status": "Running"
 		}
+	],
+	"links": [
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-calico-kube-controllers-75d56dfc47-d489f",
+			"value": 0
+		},
+		{
+			"source": "kube-system-calico-kube-controllers-75d56dfc47-d489f",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-calico-node-89t7p",
+			"value": 0
+		},
+		{
+			"source": "kube-system-calico-node-89t7p",
+			"target": "node-diagnostix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-calico-node-bj9bv",
+			"value": 0
+		},
+		{
+			"source": "kube-system-calico-node-bj9bv",
+			"target": "node-acidenitrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-calico-node-cjs6l",
+			"value": 0
+		},
+		{
+			"source": "kube-system-calico-node-cjs6l",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-calico-node-h7ggq",
+			"value": 0
+		},
+		{
+			"source": "kube-system-calico-node-h7ggq",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-calico-node-x7cpb",
+			"value": 0
+		},
+		{
+			"source": "kube-system-calico-node-x7cpb",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-calico-node-xvlm8",
+			"value": 0
+		},
+		{
+			"source": "kube-system-calico-node-xvlm8",
+			"target": "node-alambix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-coredns-5b8b5796bb-4vwsn",
+			"value": 0
+		},
+		{
+			"source": "kube-system-coredns-5b8b5796bb-4vwsn",
+			"target": "node-acidenitrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-coredns-5b8b5796bb-f6fmd",
+			"value": 0
+		},
+		{
+			"source": "kube-system-coredns-5b8b5796bb-f6fmd",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-coredns-5b8b5796bb-kqnc4",
+			"value": 0
+		},
+		{
+			"source": "kube-system-coredns-5b8b5796bb-kqnc4",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-coredns-5b8b5796bb-pdg4n",
+			"value": 0
+		},
+		{
+			"source": "kube-system-coredns-5b8b5796bb-pdg4n",
+			"target": "node-acidenitrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-coredns-5b8b5796bb-pv54g",
+			"value": 0
+		},
+		{
+			"source": "kube-system-coredns-5b8b5796bb-pv54g",
+			"target": "node-alambix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-coredns-5b8b5796bb-qfsb8",
+			"value": 0
+		},
+		{
+			"source": "kube-system-coredns-5b8b5796bb-qfsb8",
+			"target": "node-diagnostix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-csi-cephfsplugin-9rr72",
+			"value": 0
+		},
+		{
+			"source": "kube-system-csi-cephfsplugin-9rr72",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-csi-cephfsplugin-mbczd",
+			"value": 0
+		},
+		{
+			"source": "kube-system-csi-cephfsplugin-mbczd",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-csi-cephfsplugin-provisioner-86d98645d4-ftgcg",
+			"value": 0
+		},
+		{
+			"source": "kube-system-csi-cephfsplugin-provisioner-86d98645d4-ftgcg",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-csi-cephfsplugin-provisioner-86d98645d4-qhdq5",
+			"value": 0
+		},
+		{
+			"source": "kube-system-csi-cephfsplugin-provisioner-86d98645d4-qhdq5",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-csi-cephfsplugin-provisioner-86d98645d4-x5fj6",
+			"value": 0
+		},
+		{
+			"source": "kube-system-csi-cephfsplugin-provisioner-86d98645d4-x5fj6",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-csi-cephfsplugin-tnbjh",
+			"value": 0
+		},
+		{
+			"source": "kube-system-csi-cephfsplugin-tnbjh",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-etcd-acidenitrix",
+			"value": 0
+		},
+		{
+			"source": "kube-system-etcd-acidenitrix",
+			"target": "node-acidenitrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-etcd-alambix",
+			"value": 0
+		},
+		{
+			"source": "kube-system-etcd-alambix",
+			"target": "node-alambix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-etcd-diagnostix",
+			"value": 0
+		},
+		{
+			"source": "kube-system-etcd-diagnostix",
+			"target": "node-diagnostix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-apiserver-acidenitrix",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-apiserver-acidenitrix",
+			"target": "node-acidenitrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-apiserver-alambix",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-apiserver-alambix",
+			"target": "node-alambix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-apiserver-diagnostix",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-apiserver-diagnostix",
+			"target": "node-diagnostix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-controller-manager-acidenitrix",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-controller-manager-acidenitrix",
+			"target": "node-acidenitrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-controller-manager-alambix",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-controller-manager-alambix",
+			"target": "node-alambix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-controller-manager-diagnostix",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-controller-manager-diagnostix",
+			"target": "node-diagnostix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-proxy-76ssx",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-proxy-76ssx",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-proxy-77slt",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-proxy-77slt",
+			"target": "node-alambix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-proxy-hxwj8",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-proxy-hxwj8",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-proxy-qw9hs",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-proxy-qw9hs",
+			"target": "node-diagnostix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-proxy-z59xt",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-proxy-z59xt",
+			"target": "node-acidenitrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-proxy-zvc4w",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-proxy-zvc4w",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-scheduler-acidenitrix",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-scheduler-acidenitrix",
+			"target": "node-acidenitrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-scheduler-alambix",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-scheduler-alambix",
+			"target": "node-alambix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-scheduler-diagnostix",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-scheduler-diagnostix",
+			"target": "node-diagnostix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-kube-state-metrics-7f965c5dc8-s9jwd",
+			"value": 0
+		},
+		{
+			"source": "kube-system-kube-state-metrics-7f965c5dc8-s9jwd",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kube-system",
+			"target": "kube-system-metrics-server-6d64db4c8c-ttcql",
+			"value": 0
+		},
+		{
+			"source": "kube-system-metrics-server-6d64db4c8c-ttcql",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kubernetes-dashboard",
+			"target": "kubernetes-dashboard-dashboard-metrics-scraper-6b4884c9d5-hlk7s",
+			"value": 0
+		},
+		{
+			"source": "kubernetes-dashboard-dashboard-metrics-scraper-6b4884c9d5-hlk7s",
+			"target": "node-acidenitrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-kubernetes-dashboard",
+			"target": "kubernetes-dashboard-kubernetes-dashboard-7d8574ffd9-rmlxj",
+			"value": 0
+		},
+		{
+			"source": "kubernetes-dashboard-kubernetes-dashboard-7d8574ffd9-rmlxj",
+			"target": "node-alambix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-defaultbackend-global-5d9f9894c8-rjt6z",
+			"value": 0
+		},
+		{
+			"source": "vproduction-defaultbackend-global-5d9f9894c8-rjt6z",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-elasticsearch-0z8oak-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-elasticsearch-0z8oak-0",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-elasticsearch-35aicw-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-elasticsearch-35aicw-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-elasticsearch-4uvocd-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-elasticsearch-4uvocd-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-elasticsearch-4wksgg-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-elasticsearch-4wksgg-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-elasticsearch-61e5le-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-elasticsearch-61e5le-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-elasticsearch-96qa9c-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-elasticsearch-96qa9c-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-elasticsearch-b0cx3z-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-elasticsearch-b0cx3z-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-elasticsearch-b7t1t4-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-elasticsearch-b7t1t4-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-elasticsearch-frsytv-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-elasticsearch-frsytv-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-elasticsearch-nagaor-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-elasticsearch-nagaor-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-elasticsearch-oqp7y8-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-elasticsearch-oqp7y8-0",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-elasticsearch-pw2ddq-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-elasticsearch-pw2ddq-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-elasticsearch-vdjq3u-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-elasticsearch-vdjq3u-0",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-elasticsearch-w4vv8o-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-elasticsearch-w4vv8o-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-elasticsearch-ys9n5b-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-elasticsearch-ys9n5b-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-grafana-0z8oak-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-grafana-0z8oak-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-grafana-35aicw-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-grafana-35aicw-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-grafana-4uvocd-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-grafana-4uvocd-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-grafana-4wksgg-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-grafana-4wksgg-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-grafana-61e5le-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-grafana-61e5le-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-grafana-96qa9c-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-grafana-96qa9c-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-grafana-b0cx3z-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-grafana-b0cx3z-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-grafana-b7t1t4-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-grafana-b7t1t4-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-grafana-frsytv-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-grafana-frsytv-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-grafana-nagaor-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-grafana-nagaor-0",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-grafana-oqp7y8-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-grafana-oqp7y8-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-grafana-pw2ddq-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-grafana-pw2ddq-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-grafana-vdjq3u-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-grafana-vdjq3u-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-grafana-w4vv8o-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-grafana-w4vv8o-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-grafana-ys9n5b-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-grafana-ys9n5b-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-graylog-0z8oak-55dffc5947-dpp8p",
+			"value": 0
+		},
+		{
+			"source": "vproduction-graylog-0z8oak-55dffc5947-dpp8p",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-graylog-35aicw-6bd5994dbf-r57qp",
+			"value": 0
+		},
+		{
+			"source": "vproduction-graylog-35aicw-6bd5994dbf-r57qp",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-graylog-4uvocd-7dfd97ffd7-hdsb2",
+			"value": 0
+		},
+		{
+			"source": "vproduction-graylog-4uvocd-7dfd97ffd7-hdsb2",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-graylog-4wksgg-c66cbd9c5-ngwlv",
+			"value": 0
+		},
+		{
+			"source": "vproduction-graylog-4wksgg-c66cbd9c5-ngwlv",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-graylog-61e5le-75ddfc54d5-49rhf",
+			"value": 0
+		},
+		{
+			"source": "vproduction-graylog-61e5le-75ddfc54d5-49rhf",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-graylog-96qa9c-99ffd68f5-tgwpt",
+			"value": 0
+		},
+		{
+			"source": "vproduction-graylog-96qa9c-99ffd68f5-tgwpt",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-graylog-b0cx3z-d688f546f-xqnh8",
+			"value": 0
+		},
+		{
+			"source": "vproduction-graylog-b0cx3z-d688f546f-xqnh8",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-graylog-b7t1t4-85dd666589-hdxgt",
+			"value": 0
+		},
+		{
+			"source": "vproduction-graylog-b7t1t4-85dd666589-hdxgt",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-graylog-frsytv-b868bb4f9-xqmq7",
+			"value": 0
+		},
+		{
+			"source": "vproduction-graylog-frsytv-b868bb4f9-xqmq7",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-graylog-nagaor-546f6f8865-rkjhx",
+			"value": 0
+		},
+		{
+			"source": "vproduction-graylog-nagaor-546f6f8865-rkjhx",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-graylog-oqp7y8-68496b65fc-2vg7f",
+			"value": 0
+		},
+		{
+			"source": "vproduction-graylog-oqp7y8-68496b65fc-2vg7f",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-graylog-pw2ddq-549f5d9849-jk2vw",
+			"value": 0
+		},
+		{
+			"source": "vproduction-graylog-pw2ddq-549f5d9849-jk2vw",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-graylog-vdjq3u-5c9964f4fc-gftpt",
+			"value": 0
+		},
+		{
+			"source": "vproduction-graylog-vdjq3u-5c9964f4fc-gftpt",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-graylog-w4vv8o-766f4bc8d4-xpx49",
+			"value": 0
+		},
+		{
+			"source": "vproduction-graylog-w4vv8o-766f4bc8d4-xpx49",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-graylog-ys9n5b-55577fb8c4-z7p7f",
+			"value": 0
+		},
+		{
+			"source": "vproduction-graylog-ys9n5b-55577fb8c4-z7p7f",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-haproxyic-global-847d94685c-6mksm",
+			"value": 0
+		},
+		{
+			"source": "vproduction-haproxyic-global-847d94685c-6mksm",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mariadb-0z8oak-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mariadb-0z8oak-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mariadb-35aicw-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mariadb-35aicw-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mariadb-4uvocd-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mariadb-4uvocd-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mariadb-4wksgg-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mariadb-4wksgg-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mariadb-61e5le-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mariadb-61e5le-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mariadb-96qa9c-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mariadb-96qa9c-0",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mariadb-b0cx3z-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mariadb-b0cx3z-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mariadb-b7t1t4-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mariadb-b7t1t4-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mariadb-frsytv-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mariadb-frsytv-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mariadb-nagaor-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mariadb-nagaor-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mariadb-oqp7y8-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mariadb-oqp7y8-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mariadb-pw2ddq-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mariadb-pw2ddq-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mariadb-vdjq3u-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mariadb-vdjq3u-0",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mariadb-w4vv8o-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mariadb-w4vv8o-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mariadb-ys9n5b-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mariadb-ys9n5b-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mongodb-0z8oak-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mongodb-0z8oak-0",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mongodb-35aicw-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mongodb-35aicw-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mongodb-4uvocd-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mongodb-4uvocd-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mongodb-4wksgg-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mongodb-4wksgg-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mongodb-61e5le-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mongodb-61e5le-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mongodb-96qa9c-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mongodb-96qa9c-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mongodb-b0cx3z-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mongodb-b0cx3z-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mongodb-b7t1t4-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mongodb-b7t1t4-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mongodb-frsytv-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mongodb-frsytv-0",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mongodb-nagaor-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mongodb-nagaor-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mongodb-oqp7y8-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mongodb-oqp7y8-0",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mongodb-pw2ddq-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mongodb-pw2ddq-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mongodb-vdjq3u-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mongodb-vdjq3u-0",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mongodb-w4vv8o-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mongodb-w4vv8o-0",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-mongodb-ys9n5b-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-mongodb-ys9n5b-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-nprobe1-6667db8f45-44dg4",
+			"value": 0
+		},
+		{
+			"source": "vproduction-nprobe1-6667db8f45-44dg4",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-nprobe2-57d4db4775-kj748",
+			"value": 0
+		},
+		{
+			"source": "vproduction-nprobe2-57d4db4775-kj748",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-perfelasticsearch-0z8oak-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-perfelasticsearch-0z8oak-0",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-perfgraylog-0z8oak-6bdb77fb9c-76g9k",
+			"value": 0
+		},
+		{
+			"source": "vproduction-perfgraylog-0z8oak-6bdb77fb9c-76g9k",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-perfmongodb-0z8oak-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-perfmongodb-0z8oak-0",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-rsyslog-35aicw-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-rsyslog-35aicw-0",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-rsyslog-frsytv-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-rsyslog-frsytv-0",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-rsyslog-vdjq3u-0",
+			"value": 0
+		},
+		{
+			"source": "vproduction-rsyslog-vdjq3u-0",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixcore-0z8oak-7f56b48fbc-wp8sh",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixcore-0z8oak-7f56b48fbc-wp8sh",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixcore-35aicw-7c8948d49b-959xj",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixcore-35aicw-7c8948d49b-959xj",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixcore-4uvocd-6ccdfcc495-h42bf",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixcore-4uvocd-6ccdfcc495-h42bf",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixcore-4wksgg-76bcfd59f7-6qtdv",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixcore-4wksgg-76bcfd59f7-6qtdv",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixcore-61e5le-56746586b8-7776x",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixcore-61e5le-56746586b8-7776x",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixcore-96qa9c-794bd7ccc7-2xq9q",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixcore-96qa9c-794bd7ccc7-2xq9q",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixcore-b0cx3z-866bf7f576-7qrf4",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixcore-b0cx3z-866bf7f576-7qrf4",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixcore-b7t1t4-56768b65b8-fmrcc",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixcore-b7t1t4-56768b65b8-fmrcc",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixcore-frsytv-6cd47b4d5d-wx65v",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixcore-frsytv-6cd47b4d5d-wx65v",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixcore-nagaor-5d55c7bc6d-tr88h",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixcore-nagaor-5d55c7bc6d-tr88h",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixcore-oqp7y8-7978745956-h65f4",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixcore-oqp7y8-7978745956-h65f4",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixcore-pw2ddq-59cdf76f6-gkdqf",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixcore-pw2ddq-59cdf76f6-gkdqf",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixcore-vdjq3u-85477bdbc9-bjbdq",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixcore-vdjq3u-85477bdbc9-bjbdq",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixcore-w4vv8o-c668cb68b-khqnd",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixcore-w4vv8o-c668cb68b-khqnd",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixcore-ys9n5b-7485ddd5cb-jww89",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixcore-ys9n5b-7485ddd5cb-jww89",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixproxy-35aicw-6c5cdfbf5-98hvt",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixproxy-35aicw-6c5cdfbf5-98hvt",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixproxy-frsytv-6dfdb46ddf-hgkbn",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixproxy-frsytv-6dfdb46ddf-hgkbn",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixproxy-vdjq3u-646f755f4b-v4rkn",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixproxy-vdjq3u-646f755f4b-v4rkn",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixproxy-vizee-6d489587bf-jxfwz",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixproxy-vizee-6d489587bf-jxfwz",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixweb-0z8oak-7b47dbb477-7rt7p",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixweb-0z8oak-7b47dbb477-7rt7p",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixweb-35aicw-5c7765775-dj52v",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixweb-35aicw-5c7765775-dj52v",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixweb-4uvocd-584b669657-jxh5j",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixweb-4uvocd-584b669657-jxh5j",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixweb-4wksgg-74cc949959-5xjkw",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixweb-4wksgg-74cc949959-5xjkw",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixweb-61e5le-88674c9d-t67r9",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixweb-61e5le-88674c9d-t67r9",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixweb-96qa9c-74f696568d-r5n82",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixweb-96qa9c-74f696568d-r5n82",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixweb-b0cx3z-55b566f6c6-xnhk9",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixweb-b0cx3z-55b566f6c6-xnhk9",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixweb-b7t1t4-856d97d8b-dwscf",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixweb-b7t1t4-856d97d8b-dwscf",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixweb-frsytv-58969c4b98-8xtzh",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixweb-frsytv-58969c4b98-8xtzh",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixweb-nagaor-f8776f5db-b6hzh",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixweb-nagaor-f8776f5db-b6hzh",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixweb-oqp7y8-589d7b7dd6-h6fvp",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixweb-oqp7y8-589d7b7dd6-h6fvp",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixweb-pw2ddq-84d64944d8-mmbl8",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixweb-pw2ddq-84d64944d8-mmbl8",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixweb-vdjq3u-db79db5b4-q2xsv",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixweb-vdjq3u-db79db5b4-q2xsv",
+			"target": "node-keskonrix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixweb-w4vv8o-8b48d6554-z6g6n",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixweb-w4vv8o-8b48d6554-z6g6n",
+			"target": "node-orthopedix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vproduction",
+			"target": "vproduction-zabbixweb-ys9n5b-56bc5bc78f-ns49k",
+			"value": 0
+		},
+		{
+			"source": "vproduction-zabbixweb-ys9n5b-56bc5bc78f-ns49k",
+			"target": "node-assurancetourix",
+			"value": 0
+		},
+		{
+			"source": "namespace-vtesting",
+			"target": "vtesting-defaultbackend-global-858b66b65b-79mxm",
+			"value": 0
+		},
+		{
+			"source": "vtesting-defaultbackend-global-858b66b65b-79mxm",
+			"target": "node-",
+			"value": 0
+		},
+		{
+			"source": "namespace-vtesting",
+			"target": "vtesting-haproxyic-global-5df6fb4d7-8p5g9",
+			"value": 0
+		},
+		{
+			"source": "vtesting-haproxyic-global-5df6fb4d7-8p5g9",
+			"target": "node-",
+			"value": 0
+		}
+	]
 }
