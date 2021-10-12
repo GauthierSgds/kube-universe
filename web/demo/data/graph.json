@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@GauthierSgds 
-GauthierSgds
-/
-kube-universe
-Public
-forked from afritzler/kube-universe
-0
-0
-2
-Code
-Pull requests
-Actions
-Projects
-Security
-Insights
-Settings
-kube-universe/web/demo/data/graph.json
-@GauthierSgds
-GauthierSgds Update graph.json
-Latest commit b8b88ee 10 minutes ago
- History
- 2 contributors
-@GauthierSgds@afritzler
-2838 lines (2838 sloc)  63.9 KB
-   
 {
 	"nodes": [
 		{
