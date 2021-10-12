@@ -16,11 +16,12 @@
       (elem)
         .jsonUrl('data/graph.json')
         .nodeLabel(function(n){
-          if (n.type == "pod" && n.hasOwnProperty('status') && n.status != "Running") {
-            return n.name + '<br/> Status: ' + n.status + '<br/> StatusMsg: ' + n.statusmessage
-          } else {
-            return n.name
-          }
+          if (n.type == "pod" && n.namespace == "vproduction") {
+            if (n.type == "pod" && n.hasOwnProperty('status') && n.status != "Running") {
+              return n.name + '<br/> Status: ' + n.status + '<br/> StatusMsg: ' + n.statusmessage
+            } else {
+              return n.name
+            }}
         })
         .nodeOpacity(1)
         .nodeAutoColorBy(function(n){
