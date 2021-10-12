@@ -3,6 +3,12 @@
   "name": "elasticsearch-b7t1t4-0",
   "type": "pod",
   "status": "Running"},
+   {
+			"id": "namespace-vproduction",
+			"namespace": "",
+			"name": "vproduction",
+			"type": "namespace"
+		}
  {"id": "vproduction-grafana-w4vv8o-0",
   "namespace": "vproduction",
   "name": "grafana-w4vv8o-0",
